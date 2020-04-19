@@ -9,14 +9,20 @@
 import UIKit
 
 class ResultViewController: UIViewController {
-
+    
+    @IBOutlet weak var BMILable: UILabel!
+    @IBOutlet weak var adviceLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func recalculateButton(_ sender: UIButton) {
+        
+    }
+    
     /*
     // MARK: - Navigation
 
